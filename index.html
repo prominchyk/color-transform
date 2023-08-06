@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+<meta charset="utf-8">
+<title>Your proverb</title>
+<meta name="viewport" content="width=device-width">
+<link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+<link href="styles.min.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div id="translate">
+    <header>
+        <img src="dove.png" width="60px" height="60px">
+        hodgepodge
+        <input id="en" type="submit" value="en" class=""> <input id="ua" type="submit" value="ua" class="active">
+        <div id="greeting"></div>
+    </header>
+     
+        <aside>
+            <p id="asideTextMenu">Розділи сайту:</p>
+            <a id='number' href="../mini-games/mini-games.html" title="Mini-games"> [Міні-ігри] </a><br><br>
+            <a id='tools' href="../tools/tools.html" title="Tools"> [Інструменти текстові, математичні] </a>
+        </aside>
+        <div id="title">
+            <h1>Кольорова трансформація</h1>
+        </div>
+        <button class="myClick"> Натисніть </button>
+        <div id="main">
+            <h2>Мудрість народу в прислів'ях</h2>
+            <img src="nature4.jpg" id="picture1">
+            <img src="nature3.jpg" id="picture2">
+            <p></p>
+        </div>
+        <div id="figures">
+            <h2>Калейдоскоп</h2>
+            <span id="circleDescript">Клікніть на круг - змінюватиметься візуальний малюнок в залежності від швидкості обертання.</span>
+            <div id="circle"></div>
+            <span id="rotateNumber"></span>
+        </div>
+        <div id="rainbow">
+            <h2>Веселка</h2>
+            <span id="rainbowDescript">Розмістіть кольори веселки в поля нижче (клік на колір - клік на потрібне поле).</span>
+            <div id="colors">
+                <div id="yellow" class="child"></div>
+                <div id="blueviolet" class="child"></div>
+                <div id="red" class="child"></div>
+                <div id="green" class="child"></div>
+                <div id="blue" class="child"></div>
+                <div id="orange" class="child"></div>
+                <div id="skyblue" class="child"></div>
+            </div>
+            <div id="resColors">
+                <div class="resColorsChild col1"></div>
+                <div class="resColorsChild col2"></div>
+                <div class="resColorsChild col3"></div>
+                <div class="resColorsChild col4"></div>
+                <div class="resColorsChild col5"></div>
+                <div class="resColorsChild col6"></div>
+                <div class="resColorsChild col7"></div>
+            </div>
+            <div id="canv">
+                <canvas id="canv1" width="1000" height="500"></canvas>
+                <canvas id="canv2" width="1000" height="500"></canvas>
+                <canvas id="canv3" width="1000" height="500"></canvas>
+                <canvas id="canv4" width="1000" height="500"></canvas>
+                <canvas id="canv5" width="1000" height="500"></canvas>
+                <canvas id="canv6" width="1000" height="500"></canvas>
+                <canvas id="canv7" width="1000" height="500"></canvas>
+            </div>
+            <div id="anim">
+                <div id="anim1"></div>
+                <div id="anim2"></div>
+                <div id="anim21"></div>
+                <div id="anim3"></div>
+                <div id="anim31"></div>
+                <div id="anim4"></div>
+                <div id="anim41"></div>
+                <div id="anim5"></div>
+            </div>
+        </div>
+    </div> 
+
+    <script src="script.min.js"></script>
+    
+</body>
+
+</html>
