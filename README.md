@@ -4,4 +4,4 @@
 <p>The page has two languages ​​- English and Ukrainian.</p>
 <p>Implemented using HTML, CSS (including transform, animation, transition), JS (including Canvas), Gulp.</p>
 
-<p>Page address: https://prominchyk.github.io/mini-games/ </p>
+<p>Page address: https://prominchyk.github.io/color-transform/ </p>
